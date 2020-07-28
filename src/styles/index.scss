@@ -1,13 +1,52 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+#traffic-top{
+    width: 5px;
+    height: 65px;
+    background-color: black;
+    margin: auto;
+    
+}
+#container{
+    width: 55px;
+    height: 130px;
+    background-color: black;
+    margin: auto;
+    padding-top: 5px;
+    border-radius: 25px;
+    
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.red-light{
+    width: 40px;
+    height: 40px;
+    // background-color: black;
+    margin: auto;
+    background: rgba(216, 31, 31, 0.959);
+    border-radius: 50%;
+}
+.yellow-light{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(238, 218, 42);
+    margin: auto;
+    border-radius: 50%;
+}
+.green-light{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(19, 160, 61);
+    margin: auto;
+    border-radius: 50%;
+    // box-shadow: 0px 0px 5px rgb(255, 255, 253);
+    // box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;  
+}
 
-*/
+.selected{
+    width: 42px;
+    height: 42px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgb(255, 255, 253);
+}
+
